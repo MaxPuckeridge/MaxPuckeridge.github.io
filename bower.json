@@ -1,0 +1,19 @@
+{
+  "name": "maxpuckeridge.github.io",
+  "authors": [
+    "Max Puckeridge"
+  ],
+  "license": "ISC",
+  "version": "0.1.0",
+  "homepage": "https://github.com/MaxPuckeridge/MaxPuckeridge.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "odd": "https://github.com/MaxPuckeridge/odd.js.git"
+  }
+}

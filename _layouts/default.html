@@ -4,17 +4,28 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">MaxPuckeridge.github.io</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="https://au.linkedin.com/in/max-puckeridge-479b9898">LinkedIn</a>
+            <a class="mdl-navigation__link" href="https://github.com/MaxPuckeridge">Github</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        {% include list-content.html %}
       </div>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          {{ content }}
+        </div>
+      </main>
     </div>
-
-    {% include footer.html %}
-
   </body>
-
 </html>
