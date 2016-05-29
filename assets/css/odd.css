@@ -2,6 +2,67 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.odd-app a {
+  color: #FF5252;
+}
+
+.odd-app .mdl-button--fab.mdl-button--colored, .odd-app .mdl-button--fab.mdl-button--colored:focus {
+  background: #FF5252;
+}
+
+.odd-start-card, .odd-examples-card, .odd-equation-editor, .odd-graph-options-editor {
+  width: 380px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.odd-equation-editor {
+  min-height: initial;
+}
+
+.mdl-card__title {
+  background: #009688;
+  color: white;
+}
+
+.odd-start-card .mdl-card__title {
+  height: 150px;
+}
+
+.odd-start-card .mdl-card__title-text {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+}
+
+.odd-start-card svg {
+  width: 300px;
+  color: white;
+}
+
+.mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
+
+.odd-app a.mdl-button {
+  color: #009688;
+}
+
+.odd-logo .st0{
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:2;
+  stroke-miterlimit:10;
+}
+
+.odd-logo .st1{
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-miterlimit:10;
+}
+
 .odd-graph {
   display: inline-block;
   vertical-align: top;
@@ -61,4 +122,71 @@
   width: 50px;
   display: inline-block;
   text-overflow: ellipsis;
+}
+
+.odd-equation-editor .odd-equation-container{
+  overflow-y: auto;
+  max-height: 350px;
+  width: initial;
+  margin: 0;
+  padding: 10px;
+}
+
+.odd-equation-editor .odd-equation-item {
+  padding: 0 20px;
+}
+
+.odd-equation-editor .odd-equation {
+  margin-right: 20px;
+}
+
+.odd-equation-editor .odd-equation-item .delete-equation-btn {
+  cursor: pointer;
+}
+
+.odd-equation-editor .add-equation-btn {
+  position: absolute;
+  top: 40px;
+  left: calc(50% - 20px);
+}
+
+.odd-variable-editor {
+  width: 510px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.mdl-card h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.odd-variable-item {
+  margin: 0;
+  padding: 0;
+}
+
+.odd-variable-item .mdl-textfield {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.odd-variable-item .mdl-checkbox {
+  display: inline;
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+
+.odd-variable-editor .mdl-dialog__content{
+  max-height: 300px;
+  overflow: auto;
+}
+
+.odd-variable-editor .slider-options {
+  display: inline;
+}
+
+.odd-graph-range-control .mdl-textfield {
+  width: 70px;
+  margin-right: 10px;
 }
