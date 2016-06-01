@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 .idea
+*.iml
 assets
 bower_components
 node_modules
